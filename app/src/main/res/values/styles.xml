@@ -1,0 +1,219 @@
+<resources>
+    <style name="AppTheme" parent="BaseAppTheme"/>
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/common_black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+        //沉浸状态栏
+        <!-- <item name="android:windowIsTranslucent">true</item>
+         <item name="android:windowTranslucentStatus">true</item>-->
+
+        //ActionBarDrawerToggle设置颜色
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="line_vertical_gray">
+        <item name="android:background">@color/grayLine</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="line_horizontal_gray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/grayLine</item>
+    </style>
+
+    <style name="line_vertical_gray10">
+        <item name="android:background">@color/grayLine</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="line_horizontal_gray10">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/grayLine</item>
+    </style>
+
+    <style name="line_vertical_gray10_1">
+        <item name="android:background">@color/grayLine</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="line_horizontal_gray10_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/grayLine</item>
+    </style>
+
+    <style name="line_vertical_gray15">
+        <item name="android:background">@color/grayLine</item>
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="line_horizontal_gray15">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">15dp</item>
+        <item name="android:background">@color/grayLine</item>
+    </style>
+
+    <style name="BlackText16">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="WhiteText15">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="WhiteText14">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="BlackText15">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="BlackText14">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="Black333333Text16">
+        <item name="android:textColor">@color/black333333</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="Black333333Text15">
+        <item name="android:textColor">@color/black333333</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="Black333333Text14">
+        <item name="android:textColor">@color/black333333</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="BlueDarkText15">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="BlueDarkText14">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="BlueDarkText13">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/font_13</item>
+    </style>
+
+    <style name="BlueDarkText12">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/font_12</item>
+    </style>
+
+    <style name="BlueDarkText11">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/font_11</item>
+    </style>
+
+    <style name="BlueDarkText10">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/font_10</item>
+    </style>
+
+    <style name="GrayDarkText15">
+        <item name="android:textColor">@color/grayDarkText</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="GrayDarkText14">
+        <item name="android:textColor">@color/grayDarkText</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="GrayDarkText13">
+        <item name="android:textColor">@color/grayDarkText</item>
+        <item name="android:textSize">@dimen/font_13</item>
+    </style>
+
+    <style name="GrayLightText16">
+        <item name="android:textColor">@color/grayLightText</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="GrayLightText15">
+        <item name="android:textColor">@color/grayLightText</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="GrayLightText14">
+        <item name="android:textColor">@color/grayLightText</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="GrayLightText13">
+        <item name="android:textColor">@color/grayLightText</item>
+        <item name="android:textSize">@dimen/font_13</item>
+    </style>
+
+    <style name="YellowDarkText16">
+        <item name="android:textColor">@color/yellowDark</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="YellowDarkText15">
+        <item name="android:textColor">@color/yellowDark</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="YellowDarkText14">
+        <item name="android:textColor">@color/yellowDark</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="YellowDarkText13">
+        <item name="android:textColor">@color/yellowDark</item>
+        <item name="android:textSize">@dimen/font_13</item>
+    </style>
+
+    <style name="YellowLightText16">
+        <item name="android:textColor">@color/yellowLight</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="YellowLightText15">
+        <item name="android:textColor">@color/yellowLight</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="YellowLightText14">
+        <item name="android:textColor">@color/yellowLight</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="EditTextStyle" parent="BlackText15">
+        <item name="android:textColorHint">@color/grayLightText</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <item name="android:background">@drawable/shape_radius_graylight_5dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="WhiteText15">
+        <item name="android:background">@drawable/shape_radius_graylight_5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

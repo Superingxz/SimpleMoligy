@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B0873E</color>
+    <color name="colorPrimaryDark">#B0873E</color>
+    <color name="colorAccent">#B0873E</color>
+
+    <color name="partTranslucent">#39000000</color>
+
+    <color name="white">#FFF</color>
+    <color name="whiteLight">#F7F8FA</color>
+    <color name="whiteGray">#FFFAFB</color>
+    <color name="yellow">#B0873E</color>
+    <color name="yellow2">#B0873E</color>
+    <color name="yellow3">#B0873E</color>
+    <color name="yellowLight">#d19e4d</color>
+    <color name="yellowDark">#B0873E</color>
+    <color name="black333333">#333333</color>
+    <color name="grayDark">#666666</color>
+    <color name="grayLight">#999999</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="orange">#FE7A2A</color>
+    <color name="green">#0FD400</color>
+    <color name="blue">#0066FF</color>
+
+    //功能性
+    <color name="color_line">@color/gray4</color><!--统一分割线-->
+    <color name="color_toolbar_line">@color/gray2</color><!--toolbar下面的分割线-->
+    <color name="color_title">@color/black</color><!--主标题-->
+    <color name="color_title2">@color/black2</color><!--副标题-->
+    <color name="color_text">@color/black3</color><!--正文-->
+    <color name="color_text2">@color/black4</color><!--正文2级-->
+    <color name="color_text3">@color/black5</color><!--正文3级-->
+    <color name="color_label">@color/black5</color><!--标签-->
+    <color name="color_labe2">@color/gray</color><!--标签2级-->
+
+    <color name="black">#313131</color>
+    <color name="black2">#4c4c4c</color>
+    <color name="black3">#6a6a6a</color>
+    <color name="black4">#929292</color>
+    <color name="black5">#999999</color>
+    <color name="black6">#7F7F7F</color>
+    <color name="gray2">#cccccc</color>
+    <color name="gray3">#e4e4e4</color>
+    <color name="gray4">#eeeeee</color>
+    <color name="gray5">#F4F4F4</color>
+    <color name="gray6">#CBCBCB</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="yellowDarkText">@color/yellowDark</color>
+    <color name="yellowLightText">@color/yellowLight</color>
+    <color name="pinkText">@color/yellowDark</color>
+    <color name="blueText">@color/blue</color>
+    <color name="blackText">@color/black</color>
+    <color name="grayDarkText">@color/grayDark</color>
+    <color name="grayLightText">@color/grayLight</color>
+    <color name="grayLightText_f6f6f6">@color/gray_f6f6f6</color>
+    <color name="grayLine">#f6f6f6</color>
+    <color name="gray_f6f6f6">#f6f6f6</color>
+
+    <color name="black_tran">#33000000</color>
+
+    <color name="text_black_middle">#666666</color>
+</resources>

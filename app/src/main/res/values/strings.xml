@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleMoligy</string>
+
+    <string name="locationing">定位中</string>
+    <string name="location_city">定位城市</string>
+
+</resources>

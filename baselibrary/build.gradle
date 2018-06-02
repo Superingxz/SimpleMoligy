@@ -1,0 +1,85 @@
+apply plugin: 'com.android.library'
+apply plugin: 'me.tatarka.retrolambda'
+
+def config = rootProject.ext.ver
+def library = rootProject.ext.library
+
+android {
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion config.compileSdkVersion
+    compileSdkVersion config.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode config.versionCode
+        versionName config.versionName
+
+        //ARouter 模块名 必须写
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            //设置支持的so框架库
+            abiFilters "armeabi", "armeabi-v7a", "x86"
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    publishNonDefault true //默认不为发布版本
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+
+    compile library.arouter_api
+
+    compile library.supportV4
+    compile library.supportV7
+    compile library.design
+    compile library.cardview
+    compile library.recyclerview
+
+    compile library.rxandroid
+    compile library.rxjava2
+    compile library.gson
+
+    compile library.okio
+    compile library.okhttp
+    compile library.okhttp_logging
+    compile library.retrofit2
+    compile library.retrofit2_gson
+    compile library.retrofit2_adapter
+    compile library.rxlifecycle2
+    compile library.rxlifecycle2_android
+    compile library.rxlifecycle2_components
+    compile library.rxpermissions2
+    compile library.BaseRecyclerViewAdapterHelper
+    compile library.SmartRefreshLayout
+    compile library.TabLayout
+    compile library.logger
+}
